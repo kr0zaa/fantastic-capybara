@@ -1,0 +1,383 @@
+[22:00:53] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.23, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22:00:53] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[22:00:55] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22:00:55] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23112!/ Service=ModLauncher Env=SERVER
+[22:00:55] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/codespaces-jupyter/Minecraft-server/mods/expandability-9.0.0.jar
+[22:00:55] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 7 dependencies adding them to mods collection
+[22:00:57] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[22:00:57] [main/INFO] [mixin]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[22:00:57] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[22:00:57] [main/WARN] [mixin]: Reference map 'mixins.butcher.refmap.json' for mixins.butcher.json could not be read. If this is a development environment you can ignore this message
+[22:00:57] [main/WARN] [mixin]: Reference map 'cookingforblockheads.refmap.json' for cookingforblockheads.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:00:57] [main/INFO] [Puzzles Lib]: Loading 47 mods:
+	- alexscaves 1.1.4
+	- alexsmobs 1.22.7
+	- another_furniture 1.20.1-3.0.1
+	- architectury 9.2.14
+	- artifacts 9.4.2
+	- balm 7.2.2
+	- blueprint 7.0.3
+	- butcher 1.0.0
+	- carryon 2.1.2.7
+	- chococraft 0.9.11
+	- citadel 2.5.4
+	- cloth_config 11.1.118
+	- cookingforblockheads 16.0.3
+	- croptopia 2.3.2
+	- curios 5.7.2+1.20.1
+	- dawnoftimebuilder 1.2-SNAPSHOT
+	- dragonmounts 1.1.5.b3
+	- dungeons_arise 2.1.57-1.20.1
+	- expandability 9.0.0
+	- fallingtree 4.3.4
+	- forge 47.2.23
+	- incubation 4.0.0
+	- inventoryprofilesnext 1.10.7
+	- jei 15.3.0.4
+	- kotlinforforge 4.10.0
+	- libipn 4.0.2
+	- lootr 0.7.33.82
+	- mca 7.5.14+1.20.1
+	- mcef 2.1.4-1.20.1
+	- minecraft 1.20.1
+	- mixinextras 0.2.0-beta.6
+	- moblassos 8.0.1
+	- mohist 1.20.1
+	- mr_blossom_blade 1.2
+	- patchouli 1.20.1-83-FORGE
+	- pfm 1.2.1
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.18
+	- rightclickharvest 3.2.0+1.20.1-forge
+	- sophisticatedbackpacks 3.20.5.1039
+	- sophisticatedcore 0.6.18.597
+	- sound_physics_remastered 1.20.1-1.1.2
+	- spectrelib 0.13.15+1.20.1
+	- theoneprobe 1.20.1-10.0.1
+	- tombstone 8.6.5
+	- veinmining 1.4.0+1.20.1
+	- webdisplays 2.0.1-1.20.1
+[22:00:57] [main/WARN] [mixin]: Reference map 'moblassos.refmap.json' for moblassos.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:00:59] [main/WARN] [mixin]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[22:00:59] [main/WARN] [mixin]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[22:00:59] [main/WARN] [mixin]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[22:01:08] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[22:01:08] [modloading-worker-0/INFO] [libIPN]: [libIPN] libIPN - init in Kotlin
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[22:01:09] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[22:01:09] [modloading-worker-0/INFO] [Inventory Profiles Next]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[22:01:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for puzzleslib:main
+[22:01:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[22:01:09] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.23, for MC 1.20.1 with MCP 20230612.114412
+[22:01:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.23 Initialized
+[22:01:09] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.23 Initialized
+[22:01:09] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[22:01:09] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[22:01:09] [modloading-worker-0/INFO] [Puzzles Lib]: Constructing common components for moblassos:main
+[22:01:10] [ForkJoinPool.commonPool-worker-2/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod]: [Paladin's Furniture Update Check] Unable to download https://github.com/UnlikePaladin/Paladins-Furniture-Update-Index/releases/download/1.2.1/updateIndexForge.json
+[22:01:10] [ForkJoinPool.commonPool-worker-2/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod]: [Paladin's Furniture Update Check] Returning null!
+[22:01:14] [main/WARN] [com.unlikepaladin.pfm.PaladinFurnitureMod]: Found block type with duplicate id (minecraft:oak), skipping
+[22:01:15] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_villager] was not realized!
+[22:01:15] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / mca:male_zombie_villager] was not realized!
+[22:01:15] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_zombie_villager] was not realized!
+[22:01:15] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / mca:grim_reaper] was not realized!
+[22:01:15] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / mca:female_villager] was not realized!
+[22:01:16] [Thread-1/FATAL] [mcjty.theoneprobe.TheOneProbe]: theoneprobe config just got changed on the file system!
+[22:01:16] [Thread-1/FATAL] [mcjty.theoneprobe.TheOneProbe]: theoneprobe config just got changed on the file system!
+[22:01:16] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit]: Initialized
+[22:01:16] [modloading-worker-0/INFO] [Sound Physics - General]: Reloading reverb parameters
+[22:01:16] [modloading-worker-0/INFO] [tombstone]: Integration TOP
+[22:01:21] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:01:25] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Successfully loaded 10 data remolders!
+[22:01:26] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[22:01:26] [Worker-Main-3/WARN] [artifacts.Artifacts]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.6.5.jar
+[22:01:27] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Loot Modification Manager has loaded 0 modifier groups
+[22:01:27] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 11 recipes
+[22:01:27] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Advancement Modification Manager has loaded 1 modifier groups
+[22:01:27] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 4056 advancements
+[22:01:27] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 13 curio slots
+[22:01:27] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[22:01:27] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[22:01:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[22:01:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:01:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:01:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[22:01:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:01:31] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[22:01:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:01:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:01:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:01:31] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:01:31] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-666 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.23, NeoForge version 47.1.79)
+[22:01:33] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[22:01:33] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[22:01:33] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[22:01:35] [Server thread/INFO] [com.jmatt.appleskinspigot.AppleSkinSpigotPlugin]: [AppleCoreSpigot] Loading AppleCoreSpigot v1.2.0
+[22:01:35] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.0.8
+[22:01:35] [Server thread/INFO] [com.gmail.nossr50.mcMMO]: [mcMMO] Loading mcMMO v2.1.231
+[22:01:35] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Slimefun vRC - 37
+[22:01:35] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.21.0-dev+78-c60ed56
+[22:01:35] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Loading EssentialsChat v2.21.0-dev+78-c60ed56
+[22:01:35] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Loading VeinMiner v2.2.4
+[22:01:35] [Server thread/INFO] [me.lokka30.levelledmobs.LevelledMobs]: [LevelledMobs] Loading LevelledMobs v3.15.3 b834
+[22:01:35] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Enabling SkinsRestorer v15.0.8
+[22:01:37] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[22:01:38] [Server thread/INFO] [Puzzles Lib]: Loading server config for moblassos
+[22:01:38] [Thread-1/INFO] [Puzzles Lib]: Reloading server config for moblassos
+[22:01:38] [Thread-1/INFO] [Puzzles Lib]: Reloading server config for moblassos
+[22:01:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:01:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[22:01:47] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:47] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:48] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[22:01:48] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 81%
+[22:01:48] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5125 ms
+[22:01:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[22:01:49] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:49] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 31%
+[22:01:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 67%
+[22:01:50] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 80%
+[22:01:51] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 92%
+[22:01:51] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2769 ms
+[22:01:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[22:01:53] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:53] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:53] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:53] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:01:53] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 32%
+[22:01:54] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 54%
+[22:01:54] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 68%
+[22:01:55] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 72%
+[22:01:55] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 76%
+[22:01:56] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 81%
+[22:01:56] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[22:01:57] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 86%
+[22:01:57] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 87%
+[22:01:58] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 92%
+[22:01:58] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 97%
+[22:01:59] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 7362 ms
+[22:01:59] [Server thread/INFO] [com.jmatt.appleskinspigot.AppleSkinSpigotPlugin]: [AppleCoreSpigot] Enabling AppleCoreSpigot v1.2.0
+[22:01:59] [Server thread/INFO] [com.gmail.nossr50.mcMMO]: [mcMMO] Enabling mcMMO v2.1.231
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Enabling Slimefun vRC - 37
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] ====================================================
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Slimefun works better if you use Paper 
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  as your server software. 
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper offers significant performance improvements,
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  bug fixes, security enhancements and optional
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  features for server owners to enhance their server.
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper includes Timings v2, which is significantly
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  better at diagnosing lag problems over v1.
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  All of your plugins should still work, and the
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Paper community will gladly help you fix any issues.
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]   
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun]  Join the Paper Community @ https://papermc.io
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] ====================================================
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Creating directories...
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading language files...
+[22:02:01] [Server thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded language "es"
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Available languages: en, de, fr, it, es, ru, uk, sv, cs, bg, pt-BR, hu, sk, vi, id, zh-CN, zh-TW, ja, ko, he, ar, tr, th, tl
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Using legacy storage for player data
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Enabled Analytics Service
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Starting Auto-Updater...
+[22:02:01] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading GEO-Resources...
+[22:02:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Tags...
+[22:02:02] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading items...
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading researches...
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Wiki pages...
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Registering listeners...
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Third-Party plugin integrations...
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Hooked into Plugin: mcMMO v2.1.231
+[22:02:03] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Slimefun has finished loading in 2.26s
+[22:02:03] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.21.0-dev+78-c60ed56
+[22:02:04] [Server thread/ERROR] [Essentials]: You are running a server that does not properly support Bukkit plugins. Bukkit plugins should not be used with Forge/Fabric mods! For Forge: Consider using ForgeEssentials, or SpongeForge + Nucleus.
+[22:02:04] [Server thread/INFO] [Essentials]: Status determining class: brand:Mohist
+[22:02:04] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[22:02:04] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[22:02:05] [Server thread/INFO] [Essentials]: Loaded 39095 items from items.json.
+[22:02:05] [Server thread/INFO] [Essentials]: Using locale en_US
+[22:02:05] [Server thread/INFO] [Essentials]: ServerListPingEvent: Spigot iterator API
+[22:02:05] [Server thread/INFO] [Essentials]: Starting Metrics. Opt-out using the global bStats config.
+[22:02:05] [Server thread/INFO] [Essentials]: Using config file enhanced permissions.
+[22:02:05] [Server thread/INFO] [Essentials]: Permissions listed in as player-commands will be given to all users.
+[22:02:05] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+78-c60ed56
+[22:02:05] [Server thread/INFO] [EssentialsChat]: Starting Metrics. Opt-out using the global bStats config.
+[22:02:05] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Enabling VeinMiner v2.2.4
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Using SQLITE for persistent storage.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Loading configuration options to local memory
+[22:02:06] [Server thread/WARN] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Unknown or invalid block state string for input: "minecraft:short_grass". Is it an item?
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Added 13 aliases.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 26 unique blocks.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 10 unique blocks.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 23 unique blocks.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 27 unique blocks.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[22:02:06] [Server thread/WARN] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Performing an update check!
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registering commands
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Registering events
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Vault not found. Economy support suspended
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Enabling Plugin Metrics
+[22:02:06] [Server thread/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[22:02:06] [Server thread/INFO] [me.lokka30.levelledmobs.LevelledMobs]: [LevelledMobs] Enabling LevelledMobs v3.15.3 b834
+[22:02:06] [ForkJoinPool.commonPool-worker-1/INFO] [wtf.choco.veinminer.VeinMinerPlugin]: [VeinMiner] You are on the latest version of VeinMiner.
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: File Loader: Loading files...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Current rules hash: fc5db7139b4b2e91efed8f75bfdade0448e44365fe0bb4d0d13683615be69840
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Listeners: Registering event listeners...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Commands: Registering commands...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Running misc procedures
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[22:02:06] [Server thread/INFO] [Console]: LevelledMobs: Start-up complete (took 608ms)
+[22:02:06] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[22:02:07] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[22:02:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (29.036s)! For help, type "help"
+[22:02:07] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[22:02:07] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[22:02:07] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Now running MetricsModule build #29
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] with a total of 19/19 chart(s)!
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Metrics build #29 started.
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Collecting Snapshots of all Recipes...
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Found 9,040 Recipes!
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.9[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1md7578c9[0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:02:07] [Server thread/INFO] [Console]: 
+[22:02:07] [Server thread/INFO] [Console]: ######################### - Slimefun vRC - 37 - #########################
+[22:02:07] [Server thread/INFO] [Console]: 
+[22:02:07] [Server thread/INFO] [Console]: Successfully loaded 555 Items and 258 Researches
+[22:02:07] [Server thread/INFO] [Console]: ( 555 Items from Slimefun, 0 Items from 0 Addons )
+[22:02:07] [Server thread/INFO] [Console]: 
+[22:02:07] [Server thread/INFO] [Console]: Slimefun is an Open-Source project that is kept alive by a large community.
+[22:02:07] [Server thread/INFO] [Console]: Consider helping us maintain this project by contributing on GitHub!
+[22:02:07] [Server thread/INFO] [Console]: 
+[22:02:07] [Server thread/INFO] [Console]:  - Source Code:  https://github.com/Slimefun/Slimefun4
+[22:02:07] [Server thread/INFO] [Console]:  - Wiki:         https://github.com/Slimefun/Slimefun4/wiki
+[22:02:07] [Server thread/INFO] [Console]:  - Addons:       https://github.com/Slimefun/Slimefun4/wiki/Addons
+[22:02:07] [Server thread/INFO] [Console]:  - Bug Reports:  https://github.com/Slimefun/Slimefun4/issues
+[22:02:07] [Server thread/INFO] [Console]:  - Discord:      https://discord.gg/slimefun
+[22:02:07] [Server thread/INFO] [Console]: 
+[22:02:07] [Craft Scheduler Thread - 4/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Slimefun is already up to date!
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "world"
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "world"
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "DIM1"
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "DIM1"
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks for World "DIM-1"
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] This may take a long time...
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loading Blocks... 100% (FINISHED - 0ms)
+[22:02:07] [Server thread/INFO] [io.github.thebusybiscuit.slimefun4.implementation.Slimefun]: [Slimefun] Loaded a total of 0 Blocks for World "DIM-1"
+[22:02:07] [Server thread/INFO] [dough: protection]: Loading Protection Modules...
+[22:02:07] [Server thread/INFO] [dough: protection]: This may happen more than once.
+[22:02:07] [Craft Scheduler Thread - 1/INFO] [Essentials]: Fetching version information...
+[22:04:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: elxuxeta joined the game
+[22:04:05] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: elxuxeta[/127.0.0.1:46736] logged in with entity id 616 at ([world]611.5597634032371, -54.0, 1913.52681143276)
+[22:04:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: elxuxeta issued server command: /back
+[22:04:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: GuachupexD joined the game
+[22:04:54] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: GuachupexD[/127.0.0.1:47160] logged in with entity id 896 at ([world]67.88999150097202, 87.87208890136314, 710.6336086329978)
+[22:07:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: kr0za joined the game
+[22:07:02] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: kr0za[/127.0.0.1:51972] logged in with entity id 1706 at ([world]612.6571537968324, -54.0, 1913.3452602783507)
+[22:07:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: kr0za issued server command: /gamemode spectator
+[22:07:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: kr0za issued server command: /gamemode survival
+[22:07:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: elxuxeta lost connection: Disconnected
+[22:07:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: elxuxeta left the game
+[22:07:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp Guachupe
+[22:07:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: kr0za issued server command: /home jona
+[22:07:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: kr0za lost connection: Disconnected
+[22:07:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: kr0za left the game
+[22:10:48] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Zombie['Zombie'/2768, l='ServerLevel[world]', x=111.13, y=64.00, z=706.17] died: Zombie was slain by GuachupexD
+[22:11:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp Guachupe
+[22:12:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp spawner
+[22:16:53] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3296, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.03] died: Spider was slain by GuachupexD
+[22:16:53] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3176, l='ServerLevel[world]', x=37.70, y=-28.30, z=879.19] died: Spider was slain by GuachupexD
+[22:16:53] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3336, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.17] died: Spider was slain by GuachupexD
+[22:16:53] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3377, l='ServerLevel[world]', x=37.70, y=-28.71, z=877.78] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3154, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.88] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3153, l='ServerLevel[world]', x=37.70, y=-28.48, z=879.28] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3415, l='ServerLevel[world]', x=37.70, y=-28.69, z=877.85] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3416, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.34] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3417, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.03] died: Spider was slain by GuachupexD
+[22:16:54] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3365, l='ServerLevel[world]', x=37.70, y=-28.03, z=878.38] died: Spider was slain by GuachupexD
+[22:16:55] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3322, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.94] died: Spider was slain by GuachupexD
+[22:16:56] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3229, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.17] died: Spider was slain by GuachupexD
+[22:16:56] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3321, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.91] died: Spider was slain by GuachupexD
+[22:16:58] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3170, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.20] died: Spider was slain by GuachupexD
+[22:16:59] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3171, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.19] died: Spider was slain by GuachupexD
+[22:16:59] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3175, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.18] died: Spider was slain by GuachupexD
+[22:16:59] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3227, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.87] died: Spider was slain by GuachupexD
+[22:17:00] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3178, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.18] died: Spider was slain by GuachupexD
+[22:17:00] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3255, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.17] died: Spider was slain by GuachupexD
+[22:17:01] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3256, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.16] died: Spider was slain by GuachupexD
+[22:17:02] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3418, l='ServerLevel[world]', x=37.70, y=-28.22, z=878.36] died: Spider was slain by GuachupexD
+[22:17:02] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3270, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.15] died: Spider was slain by GuachupexD
+[22:17:02] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3254, l='ServerLevel[world]', x=37.70, y=-28.80, z=879.25] died: Spider was slain by GuachupexD
+[22:17:03] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3295, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.14] died: Spider was slain by GuachupexD
+[22:17:04] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3294, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.28] died: Spider was slain by GuachupexD
+[22:17:05] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3337, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.13] died: Spider was slain by GuachupexD
+[22:17:05] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3339, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.12] died: Spider was slain by GuachupexD
+[22:17:06] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3402, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.02] died: Spider was slain by GuachupexD
+[22:17:06] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3403, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.07] died: Spider was slain by GuachupexD
+[22:17:08] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3253, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.27] died: Spider was slain by GuachupexD
+[22:17:09] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3620, l='ServerLevel[world]', x=37.70, y=-28.60, z=877.78] died: Spider was slain by GuachupexD
+[22:17:10] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3269, l='ServerLevel[world]', x=37.70, y=-28.47, z=879.17] died: Spider was slain by GuachupexD
+[22:17:11] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3618, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.28] died: Spider was slain by GuachupexD
+[22:17:12] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3323, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.30] died: Spider was slain by GuachupexD
+[22:17:13] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3619, l='ServerLevel[world]', x=37.82, y=-28.71, z=878.07] died: Spider was slain by GuachupexD
+[22:17:14] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3228, l='ServerLevel[world]', x=37.70, y=-27.90, z=877.80] died: Spider was slain by GuachupexD
+[22:17:14] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3340, l='ServerLevel[world]', x=37.70, y=-28.47, z=879.18] died: Spider was slain by GuachupexD
+[22:17:14] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3366, l='ServerLevel[world]', x=37.70, y=-27.90, z=877.80] died: Spider was slain by GuachupexD
+[22:17:15] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3335, l='ServerLevel[world]', x=37.70, y=-28.60, z=878.63] died: Spider was slain by GuachupexD
+[22:17:15] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3268, l='ServerLevel[world]', x=37.70, y=-27.90, z=877.80] died: Spider was slain by GuachupexD
+[22:17:16] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3334, l='ServerLevel[world]', x=37.70, y=-27.90, z=877.80] died: Spider was slain by GuachupexD
+[22:17:19] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3226, l='ServerLevel[world]', x=39.05, y=-27.90, z=877.70] died: Spider was slain by GuachupexD
+[22:17:19] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3364, l='ServerLevel[world]', x=37.98, y=-28.66, z=879.08] died: Spider was slain by GuachupexD
+[22:17:19] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3375, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.95] died: Spider was slain by GuachupexD
+[22:17:20] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3376, l='ServerLevel[world]', x=37.70, y=-27.90, z=877.71] died: Spider was slain by GuachupexD
+[22:17:21] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3404, l='ServerLevel[world]', x=39.20, y=-27.40, z=879.30] died: Spider was slain by GuachupexD
+[22:17:22] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3374, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.66] died: Spider was slain by GuachupexD
+[22:17:56] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3833, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.56] died: Spider was slain by GuachupexD
+[22:18:23] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3872, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.18] died: Spider was slain by GuachupexD
+[22:18:23] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3873, l='ServerLevel[world]', x=37.71, y=-28.14, z=878.31] died: Spider was slain by GuachupexD
+[22:18:25] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3871, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.24] died: Spider was slain by GuachupexD
+[22:18:26] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3888, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.35] died: Spider was slain by GuachupexD
+[22:18:27] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3889, l='ServerLevel[world]', x=38.11, y=-28.71, z=878.28] died: Spider was slain by GuachupexD
+[22:18:30] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3890, l='ServerLevel[world]', x=38.26, y=-28.82, z=878.44] died: Spider was slain by GuachupexD
+[22:18:57] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3985, l='ServerLevel[world]', x=37.70, y=-27.90, z=879.28] died: Spider was slain by GuachupexD
+[22:18:57] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3983, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.01] died: Spider was slain by GuachupexD
+[22:18:59] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity]: Named entity Spider['Spider'/3982, l='ServerLevel[world]', x=37.70, y=-27.90, z=878.55] died: Spider was slain by GuachupexD
+[22:19:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp mader
+[22:19:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp madera
+[22:20:19] [Server thread/INFO] [Console]: (mcMMO) ~dimelo has reached level 100 in Leñador!
+[22:20:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: GuachupexD issued server command: /warp Guachupe

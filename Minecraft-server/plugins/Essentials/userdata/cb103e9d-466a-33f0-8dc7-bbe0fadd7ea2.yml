@@ -1,0 +1,48 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1713391667758
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713391676174
+  login: 1713391622129
+money: '0'
+last-account-name: kr0za
+nickname: §2k§3r§5§4Z§1a
+lastlocation:
+  world: a96c3876-3cc4-420e-b934-c37a4022d31d
+  world-name: world
+  x: 603.2578918715556
+  y: -54.0
+  z: 1913.0160547630633
+  yaw: 169.00765991210938
+  pitch: 1.4986557960510254
+logoutlocation:
+  world: a96c3876-3cc4-420e-b934-c37a4022d31d
+  world-name: world
+  x: 411.25723204978203
+  y: 95.0
+  z: 691.5763487747288
+  yaw: -48.54984664916992
+  pitch: 37.64920425415039
+homes:
+  jona:
+    world: a96c3876-3cc4-420e-b934-c37a4022d31d
+    world-name: world
+    x: 411.6149665139751
+    y: 95.0
+    z: 692.882186630726
+    yaw: 157.10031127929688
+    pitch: 23.699180603027344

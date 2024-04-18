@@ -1,0 +1,26 @@
+{
+  "blockLootTables": {
+    "MUD": "digging",
+    "FLOWERING_AZALEA_LEAVES": "woodcutting",
+    "AZALEA_LEAVES": "woodcutting",
+    "ACACIA_LEAVES": "woodcutting",
+    "SAND": "digging",
+    "GRAVEL": "digging",
+    "MANGROVE_LEAVES": "woodcutting",
+    "DARK_OAK_LEAVES": "woodcutting",
+    "DIRT": "digging",
+    "PODZOL": "digging",
+    "OAK_LEAVES": "woodcutting",
+    "BIRCH_LEAVES": "woodcutting",
+    "RED_SAND": "digging",
+    "DIRT_PATH": "digging",
+    "SPRUCE_LEAVES": "woodcutting",
+    "JUNGLE_LEAVES": "woodcutting",
+    "GRASS_BLOCK": "digging",
+    "COARSE_DIRT": "digging",
+    "MYCELIUM": "digging"
+  },
+  "entityLootTables": {},
+  "lootTableAdditions": {},
+  "fishingLootTableTreasure": "fishing"
+}

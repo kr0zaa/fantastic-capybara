@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1713391470220
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1713391663978
+  login: 1713391445434
+money: '0'
+last-account-name: elxuxeta
+logoutlocation:
+  world: a96c3876-3cc4-420e-b934-c37a4022d31d
+  world-name: world
+  x: 602.7657753527716
+  y: -54.0
+  z: 1910.3879451668545
+  yaw: -10.972412109375
+  pitch: 14.550544738769531
+lastlocation:
+  world: a96c3876-3cc4-420e-b934-c37a4022d31d
+  world-name: world
+  x: 394.5
+  y: 120.0
+  z: 703.5
+  yaw: -1.0500001907348633
+  pitch: 0.4500000476837158
